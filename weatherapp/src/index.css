@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,75 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main {
+  width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  background-color: #019b9b;
+
+}
+
+.top {
+  height: 60px;
+  background-color: #7adddf;
+  color: black;
+  padding: 10px;
+  border-radius: 15px 15px 0 0;
+  font-family: 'Recursive', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: #7adddf;
+  color: black;
+  font-size: 28px;
+  border-radius: 15px;
+  font-family: 'Recursive', sans-serif;
+}
+
+.day {
+  padding: 15px;
+  color: black;
+  font-family: 'Recursive', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.temp {
+  padding: 15px;
+  color: black;
+  font-family: 'Recursive', sans-serif;
+  font-size: 18px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ss {
+  padding: 15px;
+  color: black;
+  font-family: 'Recursive', sans-serif;
+  font-size: 16px;
+}
+
+.description {
+  padding: 0px 15px 15px;
+  color: black;
+  font-family: 'Recursive', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.button {
+  width: 35px;
+  height: 35px;
 }
