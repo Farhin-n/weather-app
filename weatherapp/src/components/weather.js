@@ -19,6 +19,7 @@ const CardExampleCard = ({ weatherData }) => (
 		</div>
 		<div className=''>
 			<p className='description'>{weatherData.weather[0].main}</p>
+			<img className='icon' alt='weather icon' src={`${process.env.REACT_APP_ICON_URL}/${weatherData.weather[0].icon}.png`}></img>
 		</div>
 		<div className='flex'>
 			<p className='temp'>Temprature: {(weatherData.main.temp - KELVIN_TO_CEL).toFixed(1)} &deg;C</p>
