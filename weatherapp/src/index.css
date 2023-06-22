@@ -7,6 +7,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  overflow-y: scroll;
+
 }
 
 code {
@@ -15,72 +18,41 @@ code {
 }
 
 .main {
-  width: 700px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 15px;
-  background-color: #019b9b;
+  padding: 1em 0;
+  background-color: blanchedalmond;
+}
+
+.big {
+  font-size: x-large;
+}
+
+.bigger {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.biggest {
+  font-size: 60px;
+  margin: 0 0;
 
 }
 
-.top {
-  height: 60px;
-  background-color: #7adddf;
-  color: black;
-  padding: 10px;
-  border-radius: 15px 15px 0 0;
-  font-family: 'Recursive', sans-serif;
+.thin {
+  font-weight: 300;
+}
+
+.medium {
+  font-size: large;
+}
+
+.icon {
+  width: 250px;
+  height: 250px;
+  margin: 0 0 1em;
+}
+
+.range-container {
   display: flex;
-  justify-content: space-between;
-}
-
-.header {
-  background-color: #7adddf;
-  color: black;
-  font-size: 28px;
-  border-radius: 15px;
-  font-family: 'Recursive', sans-serif;
-}
-
-.day {
-  padding: 15px;
-  color: black;
-  font-family: 'Recursive', sans-serif;
-  font-size: 24px;
-  font-weight: 600;
-  text-align: left;
-}
-
-.temp {
-  padding: 15px;
-  color: black;
-  font-family: 'Recursive', sans-serif;
-  font-size: 18px;
-}
-
-.flex {
-  display: flex;
-  justify-content: space-between;
-}
-
-.ss {
-  padding: 15px;
-  color: black;
-  font-family: 'Recursive', sans-serif;
-  font-size: 16px;
-}
-
-.description {
-  padding: 0px 15px 15px;
-  color: black;
-  font-family: 'Recursive', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  text-align: left;
-}
-
-.button {
-  width: 35px;
-  height: 35px;
+  align-items: baseline;
+  justify-content: space-around;
 }

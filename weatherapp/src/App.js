@@ -2,6 +2,7 @@ import './App.css';
 import React, { useEffect, useState } from 'react';
 import Weather from './components/weather';
 import { Dimmer, Loader } from 'semantic-ui-react';
+import 'semantic-ui-css/semantic.min.css'
 
 function App() {
 
@@ -34,8 +35,8 @@ function App() {
         <Weather weatherData={data} />
       ) : (
         <div>
-          <Dimmer active>
-            <Loader>Loading..</Loader>
+          <Dimmer active inverted>
+            <Loader size='big' inline='centered' content='loading' />
           </Dimmer>
         </div>
       )}
