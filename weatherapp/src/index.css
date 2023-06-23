@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  overflow-y: scroll;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main {
+  padding: 1em 0;
+  background-color: blanchedalmond;
+}
+
+.big {
+  font-size: x-large;
+}
+
+.bigger {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.biggest {
+  font-size: 60px;
+  margin: 0 0;
+
+}
+
+.thin {
+  font-weight: 300;
+}
+
+.medium {
+  font-size: large;
+}
+
+.icon {
+  width: 250px;
+  height: 250px;
+  margin: 0 0 1em;
+}
+
+.range-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
 }
